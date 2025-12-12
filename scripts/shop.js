@@ -37,8 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Like Logic ---
     // Пути относительно shop.html (src/pages) до src/assets/images/
-    const defaultHeartSrc = '../assets/images/heart.png';
-    const likedHeartSrc = '../assets/images/liked_heart.png';
+    const defaultHeartSrc = './assets/images/heart.png';
+    const likedHeartSrc = './assets/images/liked_heart.png';
 
     likeButtons.forEach(likeIcon => {
         // Установка начального пути (если не задан)
@@ -57,4 +57,5 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
 });
